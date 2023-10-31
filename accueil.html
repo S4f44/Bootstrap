@@ -27,28 +27,48 @@
             <p>pour que vous repartiez du bon pied</p>
         </section>
 
+
+        
         <section class="entreprise">
-            <h2>Notre entreprise</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <div class="container text-center">
+            <div class="row">
+              <div class="col-sm-6">
+                <h2>Notre entreprise</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Cras rutrum mauris at mi pharetra, eu rutrum tortor rhoncus. Fusce id volutpat dolor. 
                 Cras sapien ipsum, consectetur vitae cursus convallis, tempor vitae est. In ornare sapien 
                 id gravida pellentesque. </p>
+              </div>
+              <div class="col-sm-6">
+                <img src="assets/about.jpg" alt="about" class="img-fluid">
+              </div>
+            </div>
+        </div>
         </section>
 
         <section class="services">
             <h2>Nos services</h2>
 
-            <img src="assets/about.jpg" alt="about">
-            <h3>Réparation</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum mauris at mi pharetra, eu rutrum tortor rhoncus. </p>
-
-            <img src="assets/about.jpg" alt="about">
-            <h3>Entretien</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum mauris at mi pharetra, eu rutrum tortor rhoncus. </p>
-
-            <img src="assets/about.jpg" alt="about">
-            <h3>Sur mesure</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum mauris at mi pharetra, eu rutrum tortor rhoncus. </p>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <img src="assets/about.jpg" alt="about" class="img-fluid">
+                    <h3>Réparation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum mauris at mi pharetra, eu rutrum tortor rhoncus.</p>
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/about.jpg" alt="about" class="img-fluid">
+                    <h3>Entretien</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum mauris at mi pharetra, eu rutrum tortor rhoncus.</p>
+                  </div>
+                  <div class="col-sm-4">
+                    <img src="assets/about.jpg" alt="about" class="img-fluid">
+                    <h3>Sur mesure</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum mauris at mi pharetra, eu rutrum tortor rhoncus.</p>
+                  </div>
+                </div>
+              </div>
+              
         </section>
 
 
@@ -59,10 +79,10 @@
         
                 <label for="sujet">Sujet :</label>
                 <select id="sujet" name="sujet" required>
-                    <option value="Autre">Autre UN</option>
-                    <option value="Autre">Autre DEUX</option>
-                    <option value="Autre">Autre TROIS</option>
-                    <option value="Autre">Autre QUATRE</option>
+                    <option value="Choisissez un sujet">Choisissez un sujet</option>
+                    <option value="Demande de devis">Demande de devis</option>
+                    <option value="Question">Question</option>
+                    <option value="Autre">Autres</option>
                 </select><br>
         
                 <label for="message">Message :</label>
