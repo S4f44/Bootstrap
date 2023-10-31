@@ -43,20 +43,39 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum mauris at mi pharetra, eu rutrum tortor rhoncus. </p>
 
             <img src="assets/about.jpg" alt="about">
-            <h3>Réparation</h3>
+            <h3>Entretien</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum mauris at mi pharetra, eu rutrum tortor rhoncus. </p>
 
             <img src="assets/about.jpg" alt="about">
-            <h3>Réparation</h3>
+            <h3>Sur mesure</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum mauris at mi pharetra, eu rutrum tortor rhoncus. </p>
-
-
         </section>
 
+
+        <section class="Contactez-nous">
+            <form action="traitement.php" method="post">
+                <label for="nom">Votre nom et prénom :</label>
+                <input type="text" id="nom" name="nom" required><br>
         
-            <button type="submit" class="btn btn-primary">Envoyer</button>
-        </section>
+                <label for="sujet">Sujet :</label>
+                <select id="sujet" name="sujet" required>
+                    <option value="Autre">Autre UN</option>
+                    <option value="Autre">Autre DEUX</option>
+                    <option value="Autre">Autre TROIS</option>
+                    <option value="Autre">Autre QUATRE</option>
+                </select><br>
+        
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+                <input type="submit" value="Envoyer">
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.4719130116646!2d4.365160676279709!3d50.859462657830484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c370c43d6195%3A0x94b0e4b9ad97de02!2sHaute%20%C3%89cole%20ISFSC!5e0!3m2!1sfr!2sbe!4v1698770134900!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>   
+             
     </main>
+
+    <footer>SuperShoes, tous droits réservés</footer>
 
 
 </body>
