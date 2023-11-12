@@ -1,8 +1,60 @@
+
+/*NAVBAR*/
+.container-fluid{
+    background-color: red; 
+    padding: 20px;
+}
+.navbar-nav .nav-link {
+    color: white;
+  }
+  .navbar-brand-white {
+    color: white !important; 
+  }
+
+
+/*HEADER*/
+
+.cordonnier{
+    position: relative;
+}
+.cordonnier img{
+    width: 100%;
+}
+.cordonnier div{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+.cordonnier h1{
+    background-color: red; 
+    color: white; 
+    padding: 10px;
+}
+.cordonnier h3{
+    background-color: gray; 
+    color: white; 
+    padding: 10px;
+}
+.cordonnier p{
+    color: white;
+}
+
+
+
+/*SECTION NOTRE ENTREPRISE*/
+
+.col-sm-6 img{
+    background-color: red;
+}
+
+
+
+/*FOOTER*/
 .footer {
     background-color: #7F7F7F; 
     padding: 20px;
     color: white; 
-}
-.nav-item{
-    float: right;
+    text-align: center;
 }
